@@ -9,6 +9,7 @@ num=15
 
 // 4
 num=num+7
+// Can also be num+=7
 
 // 5
 num--;
@@ -37,3 +38,4 @@ let letters="qwertyuiop"
 
 // 4
 console.log(letters[9]);
+// console.log(letters[letters.length - 1]) <-- correct answer, was a little confused on the wording but this makes total sense
